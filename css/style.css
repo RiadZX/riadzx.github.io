@@ -28,6 +28,14 @@ form {
   color: #ffffff;
 }
 
+dl {
+  color: #ffffff;
+}
+
+a {
+  color:	#3366BB;
+}
+
 #boek {
   border: 5px solid  #7289da;
   width: 10%;
