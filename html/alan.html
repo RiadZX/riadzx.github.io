@@ -1,65 +1,108 @@
 <!DOCTYPE html>
 <html lang="nl">
+  <head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../scripts/scripts.js"></script>
+    <meta charset="utf-8" />
+    <title>Alan Turing</title>
+  </head>
 
+  <body>
+    <header>Dijkstra website</header>
+    <nav>
+      <div id="mySidenav" class="sidenav">
+        <ol style="list-style-type: none">
+          <li>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+          </li>
+          <li><a href="index.html">Edsger Dijkstra</a></li>
+          <li><a href="leven.html">Leven</a></li>
+          <li><a href="onderzoek.html">Onderzoek</a></li>
+          <li><a href="invloed.html">Invloed</a></li>
+          <li><a href="vakgenoten.html">Vakgenoten</a></li>
+          <li><a href="alan.html">A. Turing</a></li>
+          <li><a href="alonso.html">A. Church</a></li>
+          <li><a href="shannon.html">C. Shannon</a></li>
+          <li><a href="awards.html">Awards</a></li>
+          <li><a href="boeken.html">Boeken</a></li>
+        </ol>
+      </div>
+    </nav>
 
-<head>
-<link rel="stylesheet" href="../css/style.css">
-<script src="../scripts/scripts.js"></script>
-<meta charset="utf-8" />
-<title>Alan Turing</title>
+    <span onclick="openNav()">
+      <img src="../img/Arrow.png" alt="Arrow to open the menu" />
+    </span>
 
-</head>
+    <div id="main">
+      <section>
+        <h1>Levensbeschrijving Alan Turing</h1>
+        <img src="../img/Alan.jpg" id="Photo" alt="Image of Alan Turing" />
+        <article>
+          <h2>Biografie</h2>
+          <p class="corners">
+            Alan Mathison Turing geboren op 23 juni 1912 in London en overleden
+            op 7 juni 1954.Vanaf 1931 to 1934 studeerde Alan Turing wiskunde aan
+            de Universiteit van Cambridge en studeerde cum laude af.
+          </p>
+          <p class="corners">
+            In de Tweede Wereldoorlog werkte Alan Turing in het geheim bij de
+            Government School of Codes and Cipher, die gevestigd was op het
+            landgoed Bletchy Park. Government School of Codes and Cipher was de
+            Britse crypto-analytische dienst, die als doel had de onderschepte
+            gecodeerde berichten van de Duitsers te ontcijferen. Hiermee waren
+            ze de vijand iedere keer een stap voor. Alan Turing werd voor zijn
+            bijdragen aan de oorlogsinspanningen in 1945 geëerd en benoemd tot
+            Officier in de Orde van het Britse Rijk. Later in 1951 werd hij ook
+            voor zijn belangrijke bijdragen aan de wiskunde gekozen tot lid
+            (fellow) van de Royal Society.
+          </p>
+          
+          <p class="corners">
+            Op 7 juni 1954 is Alan Turing dood aangetroffen met een appel,
+            waarvan men beweerde dat er cyanide in zat.
+          </p>
+        </article>
+        <article>
+          <h2>Bijdrage aan de informatica</h2>
+          <p class="corners">
+            In 1935 maakte hij kennis met het zogeheten Entscheidungsproblem en
+            in dit jaar publiceerde hij ook zijn artikel “On Computable Numbers
+            with an Application to the Entscheidungsproblem”. Het doel hiervan
+            was om het probleem van de beslisbaarheid op te lossen. Op basis van
+            dit artikel bedacht Turing de Logical Computing Machine, een
+            abstracte machine die in staat was om een geprogrammeerde wiskundige
+            bewerking uit te voeren, namelijk een algoritme. Dit
+            gedachte-experiment werd later de Turingmachine genoemd. Na zijn
+            opleiding op Cambridge werkte Turing van 1936 tot 1938 samen met
+            Alonzo Church (zijn mentor) aan de Princeton Univercity in de
+            Verenigde Staten. Alan Turing kwam al in 1936 samen met Alonzo
+            Church tot de conclusie dat het algemene antwoord “nee” luidt, dit
+            wel onder bepaalde voorwaarden. Deze conclusie is de Church-Turing
+            Hypothese genoemd.
+          </p>
+          
+          <p class="corners">
+            Alan Turing maakte tevens deel uit van een team dat succesvol verder
+            ging met het werk van de Poolse wiskundigen Marian Rejewski, Henryk
+            Zygalsky en Jerzy Rózyski. Deze drie personen hadden een
+            decoderingsapparaat uitgevonden die de codes kon ontcijferen, die
+            door het Enigma -apparaat (een Duits coderingssysteem), werden
+            gemaakt. De ontcijfering van de Enigma is vaak genoemd als een van
+            de grootste prestaties in de Tweede Wereldoorlog welke gezorgd zou
+            hebben voor de uiteindelijke overwinning. Na de Tweede Wereldoorlog
+            werkte Alan Turing aan de universiteit van Manchester waar hij de
+            Automatic Computing Engine (ACE) bouwde. Na de oorlog werkte Turing
+            ook nog aan wiskundige modellen voor de ontwikkelingsbiologie, onder
+            meer hoe kleurpatronen op de huid ontstaan.<br><br>
 
-<body>
-<nav>
-  <div id="mySidenav" class="sidenav">
-    <ol style="list-style-type:none">
-    <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
-    <li><a href="index.html">Edsger Dijkstra</a></li>
-    <li><a href="leven.html">Leven</a></li>
-    <li><a href="onderzoek.html">Onderzoek</a></li>
-    <li><a href="invloed.html">Invloed</a></li>
-    <li><a href="vakgenoten.html">Vakgenoten</a></li>
-    <li><a href="alan.html">A. Turing</a></li>
-    <li><a href="alonso.html">A. Church</a></li>
-    <li><a href="shannon.html">C. Shannon</a></li>
-    <li><a href="awards.html">Awards</a></li>
-    <li><a href="boeken.html">Boeken</a></li>
-    </ol>
-  </div>
-</nav>
-<!-- Use any element to open the sidenav -->
-<span onclick="openNav()"> <img src="../img/Arrow.png" alt="Arrow to open the menu"> </span>
-
-
-<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-<div id="main">
-
-<section>
-  <h1>Boeken</h1>
-  <article>
-  <h2>    </h2>
-  <p>
-
-  </p>
-  <p>
-
-  </p>
-  </article>
-<article>
-  <h2>     </h2>
-  <p>
-
-  </p>
-  <p>
-    
-  </p>
-
-</article>
-
-
-</section>
-</div>
-</body>
-
+            De hoogste onderscheiding in de informatica krijgt men met de A.M.
+            Turing Award!
+          </p>
+        </article>
+      </section>
+    </div>
+    <footer>Marnix Welling en Riad Zaid</footer>
+  </body>
 </html>

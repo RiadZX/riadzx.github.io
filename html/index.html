@@ -8,70 +8,84 @@
   </head>
 
   <body>
-    <div id="mySidenav" class="sidenav">
-      <ol style="list-style-type: none">
-        <li>
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-            >&times;</a
-          >
-        </li>
-        <li><a href="index.html">Edsger Dijkstra</a></li>
-        <li><a href="leven.html">Leven</a></li>
-        <li><a href="onderzoek.html">Onderzoek</a></li>
-        <li><a href="invloed.html">Invloed</a></li>
-        <li><a href="vakgenoten.html">Vakgenoten</a></li>
-        <li><a href="alan.html">A. Turing</a></li>
-        <li><a href="alonso.html">A. Church</a></li>
-        <li><a href="shannon.html">C. Shannon</a></li>
-        <li><a href="awards.html">Awards</a></li>
-        <li><a href="boeken.html">Boeken</a></li>
-      </ol>
-    </div>
+    <header>Dijkstra website</header>
+    <nav>
+      <div id="mySidenav" class="sidenav">
+        <ol style="list-style-type: none">
+          <li>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+          </li>
+          <li><a href="index.html">Edsger Dijkstra</a></li>
+          <li><a href="leven.html">Leven</a></li>
+          <li><a href="onderzoek.html">Onderzoek</a></li>
+          <li><a href="invloed.html">Invloed</a></li>
+          <li><a href="vakgenoten.html">Vakgenoten</a></li>
+          <li><a href="alan.html">A. Turing</a></li>
+          <li><a href="alonso.html">A. Church</a></li>
+          <li><a href="shannon.html">C. Shannon</a></li>
+          <li><a href="awards.html">Awards</a></li>
+          <li><a href="boeken.html">Boeken</a></li>
+        </ol>
+      </div>
+    </nav>
 
-    <!-- Use any element to open the sidenav -->
-    <span onclick="openNav()">
-      <img src="../img/Arrow.png" alt="Open Menu" />
-    </span>
+    <span onclick="openNav()"
+      ><img src="../img/Arrow.png" alt="Open Menu"
+    /></span>
 
-    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
     <div id="main">
       <section>
-        <h1>Edsger Wybe Dijkstra</h1>
+        <h1>Wie is Edsger Dijkstra?</h1>
+        <img
+          src="../img/Edsger.jpg"
+          id="Photo"
+          alt="Image of Edsger Dijkstra"
+        />
         <article>
-          <h2></h2>
-          <p>
-            Edsger Wybe Dijkstra is geboren op 11 mei 1930 in Rotterdam on
-            overleed op 6 augustus 2002 in Nuenen. Hij was een Nederlandse
-            wiskundige en informaticus. Hij was van groot belang in de
-            ontwikkeling wan de informatica, vooral op het gebied van
-            gestructueerd programmeren. In 1972 werd hij onderscheiden met de
-            A.M. Turing Award en in 2002 met de daarna naar hem vernoemde
-            Dijkstraprijs.
+          <h2>Biografie</h2>
+          <p class="corners">
+            Edsger Dijkstra, geboren op 11 mei 1930 in Rotterdam en overleden op
+            6 augustus 1930.
           </p>
-          <p></p>
+          <p class="corners">
+            Edsger Dijkstra was een Nederlandse computer wetenschapper,
+            programmeur, systemen wetenschapper en een genie op het gebied van
+            informatica.
+          </P>
+          <p class="corners">
+            In 1951 studeerde hij aan de Leidse Universiteit en haalde hier zijn
+            kandidaats voor wiskunde en natuurkunde. Edsger Dijkstra is in 1956
+            afgestudeerd in Theorethische Natuurkunde.<br><br>
+
+            Samen met zijn vrouw, Maria C. Dijkstra Debets kregen ze 3 kinderen.
+          </p>
         </article>
+        <br><br><br><br><br><br><br><br><br>
         <article>
-          <h2>Voor meer vragen: <br /></h2>
-          <form name="voorbeeld1" action="#.php" method="post">
+          <h2>Voor meer vragen: <br></h2>
+          <form name="voorbeeld1" action="#.php" method="post"  class="corners">
             <fieldset>
               <legend>Vul hieronder je informatie in:</legend>
-              Vraag: <br />
+              Vraag: <br>
               <input
                 type="text"
                 name="vraag"
                 placeholder="Vul hier je vraag in"
               />
-              <br />
-              Email:<br />
+              <br>
+              Email:<br>
               <input type="text" name="email" placeholder="Vul hier je email" />
-              <br />
+              <br>
               <input type="checkbox" value="voorwaarden" /> Ik ga akkoord met de
-              voorwaarden<br /><br />
-              <input type="submit" value="verzenden" />
+              voorwaarden<br><br>
+              <input type="submit" value="Verzenden" />
             </fieldset>
           </form>
         </article>
       </section>
     </div>
+    <footer>Marnix Welling en Riad Zaid</footer>
   </body>
 </html>
